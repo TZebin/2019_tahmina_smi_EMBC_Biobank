@@ -1,0 +1,19 @@
+Just had a look at your paper, thanks again for sharing and for the invitation to co-author.
+
+The work looks interesting and relevant to the Wearable Clinic. You have made a real effort to explain the Wearable Clinic (I like the figure!) and its relevance for mental healthcare. However I do think that for a paper like this, you place too much emphasis on this. As far as I can see (and please do correct me if I'm wrong!) your paper uses a CNN to classify locomotor activities from wearable accelerometry data. SMI does not play a role in the study other than providing the motivation for us to engage in this study, and also other elements of the Wearable Clinic such as active sensing and risk modelling do not play a role in the study. The current emphasis on these things could easily be confusing for the reader, and I would therefore advise to substantially reduce that emphasis.
+
+I appreciate that you are trying to explain the vision that sits behind the study but we should realise for a highly specialised piece of machine learning like this, the reader is best served by explaining what that specialised piece of research is. By dong that from the start, you can help them to decide quickly if your work is relevant for them and whether they should therefore read your paper.
+
+So, I would advise to focus from the beginning on the literature and current state-of-the art in locomotor activity recognition from wearable accelerometry; what the shortcomings/failings of previously published methods are; and what this paper aims to add to that. It would also be useful to refer to the LSTM paper early and explain how the current study differs and/or builds on that work.
+
+The paper should also better explain what the input data for the model are, this is currently left implicit. It is key to understanding any machine learning study.
+
+It was unclear to what the source for Table I was?
+
+From Table II, I would suggest to only cite studies that are directly relevant for this paper.
+
+AIME 2019 submission 81
+
+Locomotor activity is altered in mental or psychiatric illnesses such as schizophrenia, bipolar disorder and dementia. Wearable and smart phone technologies can be used for the early detection by continuous monitoring of the locomotor activity as an indicator or worsening health. Non-invasive body-worn sensors such as accelerometer and gyroscope can measure behavioural changes, or abnormal sleep patterns and circadian rhythms, impaired motor function and weakness during episodes of these illnesses. Now a days, many of the fitness bracelets and smart watches contain sensors that detect heart rate, activity, ambient light, and sleep. 
+In this paper, we present a context-aware convolutional neural network method for classifying human activities that can be utilised to detect and classifying behavioural traits in people in specific patient group. We exploted time-series  activity  data  from inertial sensors  and he presented model obtained an accuracy of 96.4\% in a five class sedentary and dynamic activity recognition scenario with a 20 volunteer labeled dataset.
+We will enhance and test the proposed model on activity monitoring application in naturalistic and real-life settings by processing the dataset from the schizophrenic subgroup (63 people) from the the UK Biobank physical activity dataset.
